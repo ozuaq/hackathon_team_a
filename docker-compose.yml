@@ -1,0 +1,9 @@
+version: '3'
+services:
+  webapp:
+    build: .
+    volumes:
+      - .:/team_d
+    command: sh -c "python3 manage.py makemigrations && python3 manage.py migrate && python manage.py runserver 0.0.0.0:8000"
+    ports:
+      - "8000:8000"

@@ -1,0 +1,16 @@
+POST  http://127.0.0.1:8000/team_d/api/test_articles/ HTTP/1.1
+Content-Type: application/json
+
+{
+    "title": "お試しタイトル2",
+    "tags": [
+        {"tag": "タグ2"},
+        {"tag": "ほげタグ1"}
+    ]
+}
+
+###
+GET http://127.0.0.1:8000/team_d/api/test_articles/ HTTP/1.1
+Content-Type: application/json
+
+###
