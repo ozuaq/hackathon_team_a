@@ -1,4 +1,4 @@
-## dockerをビルドして起動
+## dockerイメージをビルドして、サーバ(コンテナ)を起動
 ```
 docker-compose up --build
 ```
