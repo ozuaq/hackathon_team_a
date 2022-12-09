@@ -1,4 +1,4 @@
-## dockerをビルドして起動
+## dockerイメージをビルドして、サーバ(コンテナ)を起動
 ```
 docker-compose up --build
 ```
@@ -27,7 +27,7 @@ docker-compose stop
 - 個人的なファイルの非追跡設定<br>
 .git/info/excludeに書く <br>
 
-## Django
+## **Django**
 ## バックエンド
 - team_a/urls.py <br>
 プロジェクトのURLを設定
