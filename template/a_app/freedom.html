@@ -19,7 +19,7 @@
         integrity="sha256-WBkoXOwTeyKclOHuWtc+i2uENFpDZ9YPdf5Hf+D7ewM=" crossorigin=""></script>
 
     <link rel="stylesheet" href="{% static 'css/freedom.css' %}">
-    
+
     <title>Hello, world!</title>
 </head>
 
@@ -27,21 +27,23 @@
     <h3 class="">音声文字起こし Web Speech API お試し</h3>
     <button id="btn">start</button>
     <div id="content"></div>
-    
+
     <h3 class="mt-5">マップ操作 Leaflet + OpenStreetMap お試し</h3>
     <div id="map"></div>
-    
-    
+
+
     <h3 class="mt-5">位置情報取得 Geolocation API お試し</h3>
     <p>あなたはいま</p>
     <p id="loc" class="position"></p>
     <p>の場所にいます。ちなみに精度は半径 <span id="accuracy" class="position"></span> mです。</p>
-    
-    
-    
+
+
+
     <h3 class="mt-5">ページの動的な描画 Vue.js お試し</h3>
-    <div id="app">
-        [[ message ]]
+    <div id="components-demo">
+        <button-counter></button-counter>
+        <button-counter></button-counter>
+        <button-counter></button-counter>
     </div>
 
     <script type="module" src="{% static 'js/freedom_vue.js' %}"></script>
