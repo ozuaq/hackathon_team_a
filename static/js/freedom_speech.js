@@ -21,3 +21,12 @@ speech.onend = () => {
     speech.start()
 };
 
+
+function voice_reader(){
+    var place = "柏";
+   /*場所の読み込み Defaultは柏。受け取った位置情報に基づいて、読み上げを行う。
+    受け取った位置情報は place に渡すといいかも*/
+    var speak = new SpeechSynthesisUtterance();
+    speak.text = "まもなく"+place+"です。"
+    speechSynthesis.speak(speak);
+};

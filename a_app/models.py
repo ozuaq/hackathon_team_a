@@ -5,6 +5,12 @@ import uuid
 def image_directory_path(instance, filename):
     return 'image/{}.{}'.format(str(uuid.uuid4()), filename.split('.')[-1])
 
+class MapSpot(models.Model):
+    lat = models.FloatField(max_length=100)
+    lng = models.FloatField(max_length=100)
+    name = models.CharField(max_length=100)
+    content = models.CharField(max_length=500)
+    image = models.ImageField(upload_to=image_directory_path)
 
 class TestMedia(models.Model):
     image = models.ImageField(upload_to=image_directory_path)

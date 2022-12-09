@@ -19,3 +19,4 @@ function fail(error) {
 window.onload = (event) => {
     navigator.geolocation.getCurrentPosition(success, fail);
 };
+
