@@ -1,0 +1,753 @@
+[
+{
+  "model": "admin.logentry",
+  "pk": 1,
+  "fields": {
+    "action_time": "2022-12-09T09:38:13.642Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "1",
+    "object_repr": "MapSpot object (1)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 2,
+  "fields": {
+    "action_time": "2022-12-09T13:56:14.132Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "2",
+    "object_repr": "MapSpot object (2)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 3,
+  "fields": {
+    "action_time": "2022-12-09T14:01:46.368Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "3",
+    "object_repr": "MapSpot object (3)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 4,
+  "fields": {
+    "action_time": "2022-12-10T00:50:33.703Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "4",
+    "object_repr": "MapSpot object (4)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 5,
+  "fields": {
+    "action_time": "2022-12-10T01:02:20.306Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "5",
+    "object_repr": "MapSpot object (5)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 6,
+  "fields": {
+    "action_time": "2022-12-10T01:23:45.841Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "6",
+    "object_repr": "MapSpot object (6)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 7,
+  "fields": {
+    "action_time": "2022-12-10T01:48:46.491Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "7",
+    "object_repr": "MapSpot object (7)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 8,
+  "fields": {
+    "action_time": "2022-12-10T02:20:37.713Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "7",
+    "object_repr": "MapSpot object (7)",
+    "action_flag": 2,
+    "change_message": "[{\"changed\": {\"fields\": [\"Content\"]}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 9,
+  "fields": {
+    "action_time": "2022-12-10T02:27:43.312Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "8",
+    "object_repr": "MapSpot object (8)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 10,
+  "fields": {
+    "action_time": "2022-12-10T02:32:04.454Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "9",
+    "object_repr": "MapSpot object (9)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 11,
+  "fields": {
+    "action_time": "2022-12-10T02:41:53.698Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "10",
+    "object_repr": "MapSpot object (10)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "admin.logentry",
+  "pk": 12,
+  "fields": {
+    "action_time": "2022-12-10T04:21:21.373Z",
+    "user": 1,
+    "content_type": 10,
+    "object_id": "11",
+    "object_repr": "MapSpot object (11)",
+    "action_flag": 1,
+    "change_message": "[{\"added\": {}}]"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add test media",
+    "content_type": 7,
+    "codename": "add_testmedia"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change test media",
+    "content_type": 7,
+    "codename": "change_testmedia"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete test media",
+    "content_type": 7,
+    "codename": "delete_testmedia"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view test media",
+    "content_type": 7,
+    "codename": "view_testmedia"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 29,
+  "fields": {
+    "name": "Can add test tag",
+    "content_type": 8,
+    "codename": "add_testtag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 30,
+  "fields": {
+    "name": "Can change test tag",
+    "content_type": 8,
+    "codename": "change_testtag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 31,
+  "fields": {
+    "name": "Can delete test tag",
+    "content_type": 8,
+    "codename": "delete_testtag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 32,
+  "fields": {
+    "name": "Can view test tag",
+    "content_type": 8,
+    "codename": "view_testtag"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 33,
+  "fields": {
+    "name": "Can add test article",
+    "content_type": 9,
+    "codename": "add_testarticle"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 34,
+  "fields": {
+    "name": "Can change test article",
+    "content_type": 9,
+    "codename": "change_testarticle"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 35,
+  "fields": {
+    "name": "Can delete test article",
+    "content_type": 9,
+    "codename": "delete_testarticle"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 36,
+  "fields": {
+    "name": "Can view test article",
+    "content_type": 9,
+    "codename": "view_testarticle"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 37,
+  "fields": {
+    "name": "Can add map spot",
+    "content_type": 10,
+    "codename": "add_mapspot"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 38,
+  "fields": {
+    "name": "Can change map spot",
+    "content_type": 10,
+    "codename": "change_mapspot"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 39,
+  "fields": {
+    "name": "Can delete map spot",
+    "content_type": 10,
+    "codename": "delete_mapspot"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 40,
+  "fields": {
+    "name": "Can view map spot",
+    "content_type": 10,
+    "codename": "view_mapspot"
+  }
+},
+{
+  "model": "auth.user",
+  "pk": 1,
+  "fields": {
+    "password": "pbkdf2_sha256$390000$qbD7BhapcIPrChS3YWMiZq$JaRLt5NWVcEzumV5unOALGW3fLctLWLFdq5Sihn388c=",
+    "last_login": "2022-12-09T09:33:05.340Z",
+    "is_superuser": true,
+    "username": "sonobe",
+    "first_name": "",
+    "last_name": "",
+    "email": "",
+    "is_staff": true,
+    "is_active": true,
+    "date_joined": "2022-12-09T09:31:22.743Z",
+    "groups": [],
+    "user_permissions": []
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "a_app",
+    "model": "testmedia"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 8,
+  "fields": {
+    "app_label": "a_app",
+    "model": "testtag"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 9,
+  "fields": {
+    "app_label": "a_app",
+    "model": "testarticle"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 10,
+  "fields": {
+    "app_label": "a_app",
+    "model": "mapspot"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "jhw87rn8v2v1hm4dp9u9x0cmhcf0o2wq",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pDCYAGX7nsGMgODVA0kpV0Z765NutDtf-_9lwi4rSVsnZcwJ3ERSpx-N8L44LqDdMd6azK2ui4zyV2RB-1yaomf18P9OyjYy7eOPJ49axsBjHHagmbLTqUBiGwmjc55BOONAfJ2pEGDVzpz9gyK2Yr3B8t0N1k:1p3ZjI:TU-6XjpSTR1E5FDgWWYEH6xmoUHYgjnBonoeFdzMU7g",
+    "expire_date": "2022-12-23T09:31:40.315Z"
+  }
+},
+{
+  "model": "sessions.session",
+  "pk": "u6jj10k4at4qac0vfasuurcldx0ifrxp",
+  "fields": {
+    "session_data": ".eJxVjEEOwiAQRe_C2pDCYAGX7nsGMgODVA0kpV0Z765NutDtf-_9lwi4rSVsnZcwJ3ERSpx-N8L44LqDdMd6azK2ui4zyV2RB-1yaomf18P9OyjYy7eOPJ49axsBjHHagmbLTqUBiGwmjc55BOONAfJ2pEGDVzpz9gyK2Yr3B8t0N1k:1p3Zkf:PiQigwppjWfQAL8akspyFqWe6JpE0-fOWvYU0cWzNkw",
+    "expire_date": "2022-12-23T09:33:05.344Z"
+  }
+},
+{
+  "model": "a_app.mapspot",
+  "pk": 1,
+  "fields": {
+    "lat": 35.645856,
+    "lng": 140.036135,
+    "name": "幕張メッセ",
+    "content": "幕張メッセは千葉県千葉市美浜区の幕張新都心に位置する日本最大級の複合コンベンション施設です．　国際展示場2棟11ホール，国際会議場．幕張イベントホールを有するアジア地域有数の国際見本市会場及びMICE施設です．　国際展示場の正式名称は千葉県日本コンベンションセンター国際展示場と言います．",
+    "image": "image/f3f843da-f2b8-41f6-991c-2120bffc9b39.jpg"
+  }
+},
+{
+  "model": "a_app.mapspot",
+  "pk": 2,
+  "fields": {
+    "lat": 35.8620322,
+    "lng": 139.9709241,
+    "name": "柏駅",
+    "content": "柏駅は、千葉県柏市柏一丁目および末広町にある，JR東日本・東武鉄道の駅です．江戸時代より水戸街道の宿場町として栄えた「小金宿」と「我孫子宿」の中間に位置しています．",
+    "image": "image/05e45769-076d-4a6d-a713-2773046e3443.jpeg"
+  }
+},
+{
+  "model": "a_app.mapspot",
+  "pk": 3,
+  "fields": {
+    "lat": 35.653865,
+    "lng": 140.03158,
+    "name": "千葉県イオンモール幕張新都",
+    "content": "イオンモール幕張新都心は、千葉県千葉市美浜区豊砂1丁目に所在するイオンモール株式会社が管理、運営するモール型ショッピングセンターです．延床面積は大型ショッピングセンターのなかでも日本最大規模です．",
+    "image": "image/4217561e-a9ed-48ae-bb62-3c9514e9f059.jpeg"
+  }
+},
+{
+  "model": "a_app.mapspot",
+  "pk": 4,
+  "fields": {
+    "lat": 35.6869879,
+    "lng": 139.9882375,
+    "name": "ららぽーとＴＯＫＹＯ－ＢＡＹ店",
+    "content": "ららぽーとトーキョーベイは千葉県船橋市浜町二丁目にある三井不動産商業マネジメントが経営するショッピングセンターです．店舗数は約440店舗とショッピングセンターの中では国内最大の規模であり，年間約2,500万人が訪れています．",
+    "image": "image/a04bb00e-87fe-4ad8-9b74-c054f41ea19b.jpeg"
+  }
+},
+{
+  "model": "a_app.mapspot",
+  "pk": 5,
+  "fields": {
+    "lat": 35.644699,
+    "lng": 140.124054,
+    "name": "千葉市動物公園",
+    "content": "千葉市動物公園は千葉県千葉市若葉区源町280番地にある動物公園です．立ち姿で有名なレッサーパンダの「風太」を飼育することで知られています．開園当初から世界の霊長類の飼育，特に絶滅が危惧される希少種の繁殖に力を入れています．",
+    "image": "image/46ee8a5e-d441-4cdb-a016-b8cff6753205.jpeg"
+  }
+},
+{
+  "model": "a_app.mapspot",
+  "pk": 6,
+  "fields": {
+    "lat": 35.6207886,
+    "lng": 140.0612755,
+    "name": "稲毛海浜公園",
+    "content": "稲毛海浜公園は千葉県千葉市美浜区にある都市公園です．公園内には運動施設・プールのほか、博物館、海浜レジャー施設、結婚等の施設が整備されています．",
+    "image": "image/eeed7492-6393-491c-9e7c-3346d6071a03.jpeg"
+  }
+},
+{
+  "model": "a_app.mapspot",
+  "pk": 7,
+  "fields": {
+    "lat": 35.78182022465427,
+    "lng": 139.90102426408015,
+    "name": "中華蕎麦 とみ田",
+    "content": "つけ麺が有名です．食券制で支払いは現金のみです．",
+    "image": "image/a26038e3-5cc3-4e73-a83c-7ac98170ffef.jpeg"
+  }
+},
+{
+  "model": "a_app.mapspot",
+  "pk": 8,
+  "fields": {
+    "lat": 35.863685286203285,
+    "lng": 139.96738354235956,
+    "name": "王道家　柏店",
+    "content": "横浜家系ラーメンを提供しています．カード，電子マネーは使えません．",
+    "image": "image/87e9288b-617b-4dba-8945-7ebba54bc5e7.jpeg"
+  }
+},
+{
+  "model": "a_app.mapspot",
+  "pk": 9,
+  "fields": {
+    "lat": 35.8607151837916,
+    "lng": 139.9742878487068,
+    "name": "AKEBI",
+    "content": "中華そばを提供しています．カード，電子マネーは使えません．",
+    "image": "image/a40caf8e-b757-4254-9e1a-bcc7da13a799.jpeg"
+  }
+},
+{
+  "model": "a_app.mapspot",
+  "pk": 10,
+  "fields": {
+    "lat": 35.700159,
+    "lng": 139.9847996,
+    "name": "まるは",
+    "content": "さまざまなラーメンを提供していますが，鶏白湯ラーメンが有名です．カード，電子マネーは使えません．",
+    "image": "image/391c80f6-1059-4397-b55d-f797efe8727b.jpeg"
+  }
+},
+{
+  "model": "a_app.mapspot",
+  "pk": 11,
+  "fields": {
+    "lat": 35.67280833843922,
+    "lng": 140.06585788957773,
+    "name": "なりたけ",
+    "content": "背脂がすごいラーメンを提供しています．カード，電子決済は使えません．",
+    "image": "image/c0fcd295-219b-4b8c-bff7-ca757da44ef9.jpeg"
+  }
+}
+]
